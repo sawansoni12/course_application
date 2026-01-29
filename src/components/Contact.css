@@ -82,8 +82,7 @@
 .whatsapp-bottom-float {
   position: fixed;
   bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  right: 20px;
 
   display: flex;
   align-items: center;
@@ -105,13 +104,13 @@
 
 .whatsapp-bottom-float:hover {
   background-color: #1ebe5d;
-  transform: translateX(-50%) scale(1.05);
+  transform: scale(1.05);
 }
 
 .whatsapp-bottom-icon {
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
+  /* position: fixed; */
+  /* right: 20px; */
+  /* bottom: 20px; */
   width: 55px;
   height: auto;
   object-fit: contain;
