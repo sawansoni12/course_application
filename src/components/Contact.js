@@ -31,7 +31,7 @@ const Contact = () => {
   className="whatsapp-bottom-float"
 >
   <img
-    src="/images/whatsapp.png"
+    src={process.env.PUBLIC_URL + "/images/whatsapp.png"}
     alt="WhatsApp"
     className="whatsapp-bottom-icon"
   />
