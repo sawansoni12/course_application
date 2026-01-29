@@ -30,11 +30,11 @@ const Contact = () => {
   rel="noopener noreferrer"
   className="whatsapp-bottom-float"
 >
-  // <img
-  //   src={process.env.PUBLIC_URL + "/images/whatsapp.png"}
-  //   alt="WhatsApp"
-  //   className="whatsapp-bottom-icon"
-  // />
+  <img
+    src={process.env.PUBLIC_URL + "/images/whatsapp.png"}
+    alt="WhatsApp"
+    className="whatsapp-bottom-icon"
+  />
   <span>Chat on WhatsApp</span>
 </a>
 
